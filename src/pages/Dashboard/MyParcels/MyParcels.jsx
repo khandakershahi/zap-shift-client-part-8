@@ -63,7 +63,7 @@ const MyParcels = () => {
       "/payment-checkout-session",
       paymentInfo,
     );
-    console.log(res.data.url);
+    // console.log(res.data.url);
     window.location.assign(res.data.url);
   };
 

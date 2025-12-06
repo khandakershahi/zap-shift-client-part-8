@@ -5,7 +5,7 @@ import { AiFillX } from "react-icons/ai";
 import { useNavigate } from "react-router";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://zap-shift-server-woad.vercel.app",
   timeout: 10000,
   headers: { "X-Custom-Header": "foobar" },
 });
